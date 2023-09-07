@@ -12,3 +12,12 @@
 .NavBar {
     background-color: #d4ba93!important;
 }
+
+.Social {
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+}
+.Social:hover{
+    cursor: pointer;
+}

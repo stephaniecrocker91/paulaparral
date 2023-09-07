@@ -29,7 +29,11 @@ function NavBar() {
             
             
           </Nav>
-          
+          <div className="d-flex">
+          <a className={styles.Social} href="https://www.facebook.com/paula.parral.7" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+          <a className={styles.Social} href='https://www.instagram.com/paulaparral/'target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
+          <a className={styles.Social} href="mailto:paulaparral@hotmail.com"><i class="fa-solid fa-envelope"></i></a>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
