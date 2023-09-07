@@ -1,6 +1,13 @@
 .App {
   font-family: 'Red Hat Display', sans-serif;
+  
+}
+
+body {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 h1{
   font-weight: 300;
