@@ -6,5 +6,11 @@
 
 .Subtitle{
     background-color: #bac2bc;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
+}
+
+p{
+    margin-top: 50px;
 }

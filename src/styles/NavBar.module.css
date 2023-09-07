@@ -11,12 +11,14 @@
 
 .NavBar {
     background-color: #d4ba93!important;
+    z-index: 1;
 }
 
 .Social {
     margin-left: 20px;
     font-size: 30px;
     color: black;
+    text-align: center;
 }
 .Social:hover{
     cursor: pointer;
