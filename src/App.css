@@ -1,5 +1,6 @@
-. {
+.App {
   font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
 }
 h1{
   font-weight: 300;

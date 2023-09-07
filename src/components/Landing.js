@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from 'react';
 import styles from '../styles/Landing.module.css'
-import hero from '../images/hero.png'
+import hero from '../images/agua.png'
+
 
 
 function Landing() {
