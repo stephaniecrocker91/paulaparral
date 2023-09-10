@@ -13,10 +13,8 @@ function NavBar() {
                 }`
         }>
             <Container fluid>
-                <NavLink exact="true" to="/">
-                    <Navbar.Brand className={
-                        styles.Logo
-                    }>Paula Parral</Navbar.Brand>
+                <NavLink exact="true" to="/" className={styles.Link}>
+                    <Navbar.Brand className={styles.Logo}>Paula Parral</Navbar.Brand>
                 </NavLink>
                 <Navbar.Toggle aria-controls="navbarScroll"/>
                 <Navbar.Collapse id="navbarScroll">
