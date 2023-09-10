@@ -1,4 +1,4 @@
-import './App.module.css';
+import styles from './App.module.css';
 import Landing from './components/Landing';
 import NavBar from './components/NavBar';
 import Intro from './components/Intro';
@@ -10,8 +10,7 @@ import { Container } from 'react-bootstrap';
 function App() {
   return (
     <>
-    <NavBar />
-    <Container fluid>
+    <NavBar /> 
       <Routes>
         <Route exact="true" path="/" element= {
         <div>
@@ -22,7 +21,6 @@ function App() {
         <Route exact="true" path="/registrosakashicos" element= {<Intro />} />
       </Routes>    
       <Footer />
-    </Container>
     </>
   );
 }

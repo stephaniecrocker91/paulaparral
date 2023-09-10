@@ -1,7 +1,6 @@
 import {React, useState, useEffect} from 'react';
 import styles from '../styles/Landing.module.css'
 import hero from '../images/agua.png'
-import {Container} from 'react-bootstrap';
 
 
 function Landing() {
