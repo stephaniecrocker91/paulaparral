@@ -14,7 +14,11 @@
 .NavBar {
     background-color: #d4ba93!important;
     z-index: 1;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
+
 
 .Social {
     margin-left: 20px;

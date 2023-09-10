@@ -1,21 +1,24 @@
 /* Landing Page */
 .Hero {
-    width: 100%;
+    width: 100vw;
     height: 60vh;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 img {
-    width: 100%;
+    width: 100vw;
     height: 60vh;
     object-fit: cover;
+
 }
 
 /* Image overaly to pop content below*/
 .overlay {
     position: absolute;
     width: 0;
-    width: 100%;
+    width: 100vw;
     height: 60vh;
     /*background-color: rgba(0, 0, 0, 0.3);*/
 
@@ -50,6 +53,7 @@ h2{
     font-weight: 300;
     letter-spacing: 20px;
 }
+
 
 /* Media Queries */
 
