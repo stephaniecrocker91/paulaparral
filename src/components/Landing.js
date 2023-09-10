@@ -1,6 +1,6 @@
 import {React, useState, useEffect} from 'react';
 import styles from '../styles/Landing.module.css'
-import hero from '../images/agua.png'
+import tree from '../images/tree.png'
 
 
 function Landing() {
@@ -12,8 +12,8 @@ function Landing() {
                 <div className={
                     styles.overlay
                 }></div>
-                <img src={hero}
-                    alt='Flor de loto'/>
+                <img src={tree}
+                    alt='Tree'/>
                 <div className={
                     styles.Content
                 }>
