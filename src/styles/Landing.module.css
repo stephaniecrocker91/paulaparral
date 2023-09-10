@@ -30,9 +30,9 @@ img {
     text-align: center;
     color: #6f5952;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -130%);
+    top: 33%;
+    margin-left: 7vw;
+
 
 }
 
