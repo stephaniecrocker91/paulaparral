@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 
 function NavBar() {
     return (
-        <Navbar expand="lg"
+        <Navbar fixed="top" expand="lg"
             className={
                 `bg-body-tertiary ${
                     styles.NavBar
