@@ -5,17 +5,22 @@
     padding-bottom: 20px;
 }
 
-p{
+.BioText{
     text-align: left;
 }
 
 .BioImage{
+    margin-top: 50px;
     width: 30vw;
+    height: 400px;
 }
 
 @media screen and (max-width: 767px) {
     .BioImage {
         width: 50%;
+    }
+    .BioText{
+        text-align: center;
     }
 
 }
