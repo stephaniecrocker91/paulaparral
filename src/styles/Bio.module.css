@@ -10,9 +10,12 @@
 }
 
 .BioImage{
-    margin-top: 50px;
     width: 30vw;
     height: 400px;
+}
+
+.Margin {
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 767px) {
