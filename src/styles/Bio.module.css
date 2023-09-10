@@ -1,0 +1,21 @@
+
+.Subtitle{
+    background-color: #bac2bc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+    text-align: left;
+}
+
+.BioImage{
+    width: 30vw;
+}
+
+@media screen and (max-width: 767px) {
+    .BioImage {
+        width: 50%;
+    }
+
+}

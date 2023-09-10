@@ -1,9 +1,6 @@
 import { React, useState, useEffect } from 'react';
 import styles from '../styles/Intro.module.css'
 
-
-
-
 function Intro() {
     return (
         <>  

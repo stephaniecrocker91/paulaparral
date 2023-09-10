@@ -38,7 +38,7 @@ function NavBar() {
                             className={
                                 styles.Link
                         }>Registros Akashicos</NavLink>
-                        <NavLink href="#action3"
+                        <NavLink exact="true" to="/paulaparral"
                             className={
                                 styles.Link
                         }>Acerca de la Lectora</NavLink>
