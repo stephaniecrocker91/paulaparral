@@ -1,6 +1,6 @@
 import {React, useState, useEffect} from 'react';
 import styles from '../styles/Landing.module.css'
-import tree from '../images/tree.png'
+import tree from '../images/stars.mp4'
 
 
 function Landing() {
@@ -12,8 +12,9 @@ function Landing() {
                 <div className={
                     styles.overlay
                 }></div>
-                <img src={tree}
-                    alt='Tree'/>
+                {/*<img src={tree}
+                    alt='Tree'/>*/}
+                    <video src={tree} autoPlay loop muted />
                 <div className={
                     styles.Content
                 }>

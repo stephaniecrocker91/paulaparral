@@ -16,7 +16,6 @@ function App() {
         <Route exact="true" path="/" element= {
         <div>
           <Landing />
-          <Intro />
         </div>   
       } />
         <Route exact="true" path="/registrosakashicos" element= {<Intro />} />
