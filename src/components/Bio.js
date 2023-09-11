@@ -4,12 +4,14 @@ import app from '../App.module.css'
 import {Container, Row, Col} from 'react-bootstrap';
 import hero from '../images/paula.png'
 import video from '../images/stars.mp4'
+import image from '../images/starimage.png'
 
 
 function Intro() {
     return (
         <>
-        <video src={video} autoPlay loop muted />
+        <img src={image} className={app.Mobile}/>
+        <video src={video} autoPlay loop muted className={app.Desktop} />
             <div className ={app.Content}>
             <div className={app.Box}>
             <Container fluid 

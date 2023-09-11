@@ -2,6 +2,7 @@ import {React} from 'react';
 import styles from '../styles/Landing.module.css'
 import app from '../App.module.css'
 import video from '../images/stars.mp4'
+import image from '../images/starimage.png'
 import Button from 'react-bootstrap/Button';
 import { NavLink } from 'react-router-dom'
 
@@ -14,7 +15,8 @@ function Landing() {
             }>
                 {/*<img src={tree}
                     alt='Tree'/>*/}
-                    <video src={video} autoPlay loop muted />
+                    <img src={image} className={app.Mobile}/>
+                    <video src={video} autoPlay loop muted className={app.Desktop}/>
                 <div className={
                     app.Content
                 }>

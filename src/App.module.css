@@ -11,7 +11,7 @@ html,body {
   color: white;
 }
 
-video {
+video, img {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -53,6 +53,23 @@ h4{
 p{
   letter-spacing: 1px;
   font-weight: 200;
+}
+
+.Desktop{
+  display: block;
+}
+.Mobile{
+  display: none;
+}
+
+
+@media screen and (max-width: 944px) {
+  .Desktop{
+    display: none;
+  }
+  .Mobile{
+    display: block;
+  }
 }
 
 

@@ -4,7 +4,8 @@
 }
 
 .BioImage{
-    height: 20vw;
+    width: 25vw;
+    max-height: 50vh;
 }
 
 .Margin {
@@ -17,7 +18,7 @@
         text-align: center;
     }
     .BioImage{
-        height: 40vw;
+        width: 40vw;
     
     }
 

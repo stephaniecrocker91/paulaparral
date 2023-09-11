@@ -2,12 +2,14 @@ import { React} from 'react';
 import app from '../App.module.css'
 import styles from '../styles/Intro.module.css'
 import video from '../images/stars.mp4'
+import image from '../images/starimage.png'
 
 
 function Intro() {
     return (
         <>
-        <video src={video} autoPlay loop muted />
+        <img src={image} className={app.Mobile}/>
+        <video src={video} autoPlay loop muted className={app.Desktop} />
         <div className={
                     app.Content
                 }>

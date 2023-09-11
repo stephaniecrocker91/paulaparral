@@ -41,15 +41,6 @@ h2{
 }*/
 
 @media screen and (max-width: 1111px) {
-    .Hero {
-        height: 60vh;
-    }
-
-    video {
-
-        height: 50vh;
-    }
-
     h1 {
         font-size: 60px;
     }
@@ -61,32 +52,3 @@ h2{
     }
 }
 
-@media screen and (max-width: 466px) {
-    h1 {
-        font-size: 35px;
-    }
-
-    .Content {
-        height: 50vh;
-        margin-top: 30vh;
-    }
-
-    .Hero {
-        height: 50vh;
-    }
-
-    .Hero img {
-        height: 50vh;
-    }
-
-    .overlay {
-        height: 50vh;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    h1 {
-        font-size: 40px;
-    }
-
-}
