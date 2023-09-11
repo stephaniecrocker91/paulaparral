@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from 'react';
+import app from '../App.module.css'
 import styles from '../styles/Intro.module.css'
-import landing from '../styles/Landing.module.css'
 import video from '../images/stars.mp4'
 
 
@@ -9,7 +9,7 @@ function Intro() {
         <>
         <video src={video} autoPlay loop muted />
         <div className={
-                    landing.Content
+                    app.Content
                 }>
         <div className={styles.Box}>
         <h3> Que son los Registros Akashicos? </h3> 

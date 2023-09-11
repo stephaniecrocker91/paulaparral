@@ -1,13 +1,17 @@
 import {React, useState, useEffect} from 'react';
 import styles from '../styles/Bio.module.css'
+import app from '../App.module.css'
 import {Container, Row, Col} from 'react-bootstrap';
 import hero from '../images/agua.png'
+import video from '../images/stars.mp4'
 
 
 function Intro() {
     return (
         <>
-            <Container fluid
+        <video src={video} autoPlay loop muted />
+            <div className ={app.Content}>
+            <Container fluid 
                 style={
                     {
                         paddingLeft: 0,
@@ -41,6 +45,7 @@ function Intro() {
 
                 </Row>
             </Container>
+            </div>
         </>
     );
 }

@@ -12,8 +12,15 @@ html,body {
 }
 
 .Content {
-  min-height: 90vh;
-  margin-top: 53px;
+  background-color: rgba(0, 0, 0, 0.3)!important;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,h2,h3,h4{
