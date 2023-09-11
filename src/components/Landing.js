@@ -12,9 +12,6 @@ function Landing() {
             <div className={
                 styles.Hero
             }>
-                <div className={
-                    styles.overlay
-                }></div>
                 {/*<img src={tree}
                     alt='Tree'/>*/}
                     <video src={video} autoPlay loop muted />
