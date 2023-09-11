@@ -7,7 +7,8 @@
 
 html,body {
   text-align: center;
-
+  background-color: #2d2e38;
+  color: white;
 }
 
 .Content {

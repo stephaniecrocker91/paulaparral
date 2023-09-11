@@ -1,6 +1,7 @@
 import {React, useState, useEffect} from 'react';
 import styles from '../styles/Landing.module.css'
-import tree from '../images/stars.mp4'
+import video from '../images/stars.mp4'
+import Button from 'react-bootstrap/Button';
 
 
 function Landing() {
@@ -14,14 +15,14 @@ function Landing() {
                 }></div>
                 {/*<img src={tree}
                     alt='Tree'/>*/}
-                    <video src={tree} autoPlay loop muted />
+                    <video src={video} autoPlay loop muted />
                 <div className={
                     styles.Content
                 }>
                     <h1>Paula Parral</h1>
                     <h2>Registros Akashicos</h2>
-
                 </div>
+                <Button variant="dark" className={styles.Button}>Bienvenidos</Button>
             </div>
         </>
     );
