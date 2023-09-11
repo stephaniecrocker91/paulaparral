@@ -32,8 +32,8 @@ video {
 
 .Box {
   background-color: rgba(0, 0, 0, 0.7);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 50px ;
+  width: 90vw;
 }
 
 h1,h2,h3,h4{

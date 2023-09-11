@@ -3,6 +3,7 @@ import styles from '../styles/Landing.module.css'
 import app from '../App.module.css'
 import video from '../images/stars.mp4'
 import Button from 'react-bootstrap/Button';
+import { NavLink } from 'react-router-dom'
 
 
 function Landing() {
@@ -23,7 +24,9 @@ function Landing() {
                     <h1>Paula Parral</h1>
                     <h2>Registros Akashicos</h2>
                 </div>
-                <Button variant="dark" className={styles.Button}>Bienvenidos</Button>
+                <NavLink to="/registrosakashicos">
+                    <Button variant="dark" className={styles.Button}>Bienvenidos</Button>
+                </NavLink>
             </div>
         </>
     );
