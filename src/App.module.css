@@ -32,6 +32,8 @@ video {
 
 .Box {
   background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h1,h2,h3,h4{
@@ -50,6 +52,7 @@ h4{
 
 p{
   letter-spacing: 1px;
+  font-weight: 200;
 }
 
 

@@ -1,16 +1,10 @@
 
-.Subtitle{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .BioText{
     text-align: left;
 }
 
 .BioImage{
     height: 20vw;
-
 }
 
 .Margin {
@@ -18,7 +12,7 @@
 }
 
 @media screen and (max-width: 767px) {
-   
+
     .BioText{
         text-align: center;
     }
