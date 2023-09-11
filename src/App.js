@@ -3,6 +3,8 @@ import Landing from './components/Landing';
 import NavBar from './components/NavBar';
 import Intro from './components/Intro';
 import Bio from './components/Bio';
+import Contact from './components/Contact';
+import Blog from './components/Blog';
 import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
 
@@ -20,9 +22,11 @@ function App() {
       } />
         <Route exact="true" path="/registrosakashicos" element= {<Intro />} />
         <Route exact="true" path="/paulaparral" element= {<Bio />} />
+        <Route exact="true" path="/blog" element= {<Blog />} />
+        <Route exact="true" path="/contacto" element= {<Contact />} />
       </Routes>   
     </div> 
-      <Footer />
+    <Footer />
     </>
   );
 }

@@ -1,4 +1,4 @@
-import {React, useState, useEffect} from 'react';
+import {React} from 'react';
 import styles from '../styles/Landing.module.css'
 import app from '../App.module.css'
 import video from '../images/stars.mp4'

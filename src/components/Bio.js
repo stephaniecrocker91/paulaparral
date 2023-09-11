@@ -1,8 +1,8 @@
-import {React, useState, useEffect} from 'react';
+import {React} from 'react';
 import styles from '../styles/Bio.module.css'
 import app from '../App.module.css'
 import {Container, Row, Col} from 'react-bootstrap';
-import hero from '../images/agua.png'
+import hero from '../images/paula.png'
 import video from '../images/stars.mp4'
 
 
@@ -11,11 +11,13 @@ function Intro() {
         <>
         <video src={video} autoPlay loop muted />
             <div className ={app.Content}>
+            <div className={app.Box}>
             <Container fluid 
                 style={
                     {
                         paddingLeft: 0,
-                        paddingRight: 0
+                        paddingRight: 0,
+                        
                     }
             }>
                 <h3 className={
@@ -28,7 +30,7 @@ function Intro() {
                 </h4>
                 <Row className={styles.Margin}>
                     <Col lg={4} md={4} sm={12} xs={12}><img src={hero}
-                            alt='Flor de loto'
+                            alt='Imagen Paula Parral'
                             className={
                                 styles.BioImage
                             }/></Col>
@@ -45,6 +47,7 @@ function Intro() {
 
                 </Row>
             </Container>
+            </div>
             </div>
         </>
     );

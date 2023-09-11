@@ -1,7 +1,7 @@
-import {React, useState, useEffect} from 'react';
+import {React} from 'react';
 import styles from '../styles/Footer.module.css'
 
-function Intro() {
+function Footer() {
     return (
         <>
 
@@ -14,4 +14,4 @@ function Intro() {
     );
 }
 
-export default Intro;
+export default Footer;

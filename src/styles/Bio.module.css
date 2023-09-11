@@ -9,8 +9,8 @@
 }
 
 .BioImage{
-    width: 30vw;
-    height: 400px;
+    height: 20vw;
+
 }
 
 .Margin {
@@ -18,11 +18,13 @@
 }
 
 @media screen and (max-width: 767px) {
-    .BioImage {
-        width: 50%;
-    }
+   
     .BioText{
         text-align: center;
+    }
+    .BioImage{
+        height: 40vw;
+    
     }
 
 }

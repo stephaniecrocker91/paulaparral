@@ -1,32 +1,4 @@
 /* Landing Page */
-.Hero {
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-
-}
-
-/* Image overaly to pop content below*/
-.overlay {
-    position: absolute;
-    width: 0;
-    width: 100vw;
-    height: 100vh;
-    padding-bottom: 50px;
-    /*background-color: rgba(0, 0, 0, 0.3);*/
-
-}
-
-/* Main content: Black Friday Sales */
-
 
 .Content div {
     padding: 0;

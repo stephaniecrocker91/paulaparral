@@ -42,11 +42,11 @@ function NavBar() {
                             className={
                                 styles.Link
                         }>Acerca de la Lectora</NavLink>
-                        <NavLink href="#action3"
+                        <NavLink exact="true" to="/blog"
                             className={
                                 styles.Link
                         }>Blog</NavLink>
-                        <NavLink href="#action4"
+                        <NavLink exact="true" to="/contacto"
                             className={
                                 styles.Link
                         }>Contacto</NavLink>
@@ -74,6 +74,15 @@ function NavBar() {
                             }
                             href="mailto:paulaparral@hotmail.com">
                             <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a 
+                        className={
+                            styles.Social
+                        }
+                        href="https://wa.me/+59899142351"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa fa-whatsapp whatsapp-icon"></i>
                         </a>
                     </div>
                 </Navbar.Collapse>
