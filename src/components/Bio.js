@@ -7,7 +7,7 @@ import video from '../images/stars.mp4'
 import image from '../images/starimage.png'
 
 
-function Intro() {
+function Bio() {
     return (
         <>
             <div className ={app.Content}>
@@ -53,4 +53,4 @@ function Intro() {
     );
 }
 
-export default Intro;
+export default Bio;

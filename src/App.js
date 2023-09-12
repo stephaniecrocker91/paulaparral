@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <NavBar /> 
-    <Background/>
+    {/*<Background/>*/}
     <div className={styles.Content}>
       <Routes>
         <Route exact="true" path="/" element= {
