@@ -1,0 +1,25 @@
+video,
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.Desktop {
+    display: block;
+}
+
+.Mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 944px) {
+    .Desktop {
+        display: none;
+    }
+
+    .Mobile {
+        display: block;
+    }
+}

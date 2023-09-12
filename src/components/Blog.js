@@ -6,11 +6,7 @@ import video from '../images/stars.mp4'
 
 function Blog() {
     return (
-        <>
-            <video src={video}
-                autoPlay
-                loop
-                muted/>
+        <> 
         <div className={app.Content}>
         <div className={app.Box}>
             <h3> Blog </h3> 

@@ -11,13 +11,6 @@ html,body {
   color: white;
 }
 
-video, img {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-
-}
-
 .Content {
   background-color: rgba(0, 0, 0, 0.3)!important;
   position: absolute;
@@ -28,6 +21,7 @@ video, img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  left:0;
 }
 
 .Box {
@@ -54,24 +48,6 @@ p{
   letter-spacing: 1px;
   font-weight: 200;
 }
-
-.Desktop{
-  display: block;
-}
-.Mobile{
-  display: none;
-}
-
-
-@media screen and (max-width: 944px) {
-  .Desktop{
-    display: none;
-  }
-  .Mobile{
-    display: block;
-  }
-}
-
 
 
 

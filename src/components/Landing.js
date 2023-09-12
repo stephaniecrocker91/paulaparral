@@ -13,10 +13,9 @@ function Landing() {
             <div className={
                 styles.Hero
             }>
-                {/*<img src={tree}
-                    alt='Tree'/>*/}
-                    <img src={image} className={app.Mobile}/>
-                    <video src={video} autoPlay loop muted className={app.Desktop}/>
+
+                    {/*<img src={image} className={app.Mobile}/>
+                    <video src={video} autoPlay loop muted className={app.Desktop}/>*/}
                 <div className={
                     app.Content
                 }>
