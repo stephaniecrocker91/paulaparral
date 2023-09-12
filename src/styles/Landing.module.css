@@ -52,7 +52,7 @@ h2{
     }
 }
 
-@media screen and (max-width: 944px) {
+@media screen and (max-width: 450px) {
     h1{
         font-size: 30px;
         font-weight: 300;

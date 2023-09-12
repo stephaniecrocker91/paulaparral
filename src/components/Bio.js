@@ -21,7 +21,7 @@ function Intro() {
                     }
             }>
                 <h3 className={
-                    styles.Subtitle
+                    styles.MobileMargin
                 }>
                     Paula Parral
                 </h3>
