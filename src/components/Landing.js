@@ -10,12 +10,6 @@ import { NavLink } from 'react-router-dom'
 function Landing() {
     return (
         <>
-            <div className={
-                styles.Hero
-            }>
-
-                    {/*<img src={image} className={app.Mobile}/>
-                    <video src={video} autoPlay loop muted className={app.Desktop}/>*/}
                 <div className={
                     app.Content
                 }>
@@ -25,7 +19,6 @@ function Landing() {
                 <NavLink to="/registrosakashicos">
                     <Button variant="dark" className={styles.Button}>Bienvenidos</Button>
                 </NavLink>
-            </div>
         </>
     );
 }
