@@ -10,7 +10,6 @@ import image from '../images/starimage.png'
 function Bio() {
     return (
         <>
-            <div className ={app.Content}>
             <div className={app.Box}>
             <Container fluid 
                 style={
@@ -20,9 +19,7 @@ function Bio() {
                         
                     }
             }>
-                <h3 className={
-                    styles.MobileMargin
-                }>
+                <h3>
                     Paula Parral
                 </h3>
                 <h4>
@@ -47,7 +44,6 @@ function Bio() {
 
                 </Row>
             </Container>
-            </div>
             </div>
         </>
     );

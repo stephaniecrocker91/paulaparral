@@ -7,12 +7,10 @@ import video from '../images/stars.mp4'
 function Blog() {
     return (
         <> 
-        <div className={app.Content}>
         <div className={app.Box}>
             <h3> Blog </h3> 
             </div>
-            </div>
-            </>
+        </>
     );
 }
 

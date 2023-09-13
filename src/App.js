@@ -14,7 +14,6 @@ function App() {
   return (
     <>
     <NavBar /> 
-    <Video />
     <div className={styles.Content}>
       <Routes>
         <Route exact="true" path="/" element= {
@@ -27,7 +26,7 @@ function App() {
         <Route exact="true" path="/blog" element= {<Blog />} />
         <Route exact="true" path="/contacto" element= {<Contact />} />
       </Routes>   
-    </div> 
+    </div>
     <Footer />
     </>
   );

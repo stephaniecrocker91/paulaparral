@@ -24,11 +24,7 @@
 
 }
 
-@media screen and (max-width: 450px) {
-    .MobileMargin{
-        margin-top: 950px;
-    
-    }
+@media screen and (max-width: 500px) {
     .BioImage{
         width: 70vw;
         height: 40vh;
