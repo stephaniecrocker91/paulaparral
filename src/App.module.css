@@ -20,6 +20,7 @@ html,body {
 .Content {
   margin-top: 60px;
   flex:1;
+  min-height: calc(90vh);
 }
 
 .Box {
