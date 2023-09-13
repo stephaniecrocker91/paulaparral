@@ -57,11 +57,17 @@ p{
   }
 }
 
+@media screen and (max-width: 500px) {
+.Content {
+  background-color:transparent!important;
+}
+}
+/*
 @media screen and (max-width: 450px) {
   html,body {
 
     background-image: url(../src/images/starimage.png);
 
 }
-}
+} */
 

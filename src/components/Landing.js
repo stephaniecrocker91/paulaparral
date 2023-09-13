@@ -10,6 +10,7 @@ import { NavLink } from 'react-router-dom'
 function Landing() {
     return (
         <>
+                <img src={image} className={styles.Mobile}/>
                 <div className={
                     app.Content
                 }>

@@ -9,17 +9,17 @@ img {
     display: block;
 }
 
-.Mobile {
+/*.Mobile {
     display: none;
-}
+}*/
 
 
-@media screen and (max-width: 944px) {
+@media screen and (max-width: 500px) {
     .Desktop {
         display: none;
     }
 
-    .Mobile {
+   /* .Mobile {
         display: block;
-    }
+    }*/
 }
