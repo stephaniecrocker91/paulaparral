@@ -5,6 +5,12 @@
   min-height: 100vh;
 }
 
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 html,body {
   text-align: center;
   background-color: #2d2e38;
@@ -13,6 +19,7 @@ html,body {
 
 .Content {
   margin-top: 60px;
+  flex:1;
 }
 
 .Box {

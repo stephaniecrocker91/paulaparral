@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import styles from './App.module.css';
 import Landing from './components/Landing';
 import NavBar from './components/NavBar';
@@ -7,7 +8,6 @@ import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
-import Video from './components/Video';
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
         <Route exact="true" path="/paulaparral" element= {<Bio />} />
         <Route exact="true" path="/blog" element= {<Blog />} />
         <Route exact="true" path="/contacto" element= {<Contact />} />
-      </Routes>   
+      </Routes>
     </div>
     <Footer />
     </>

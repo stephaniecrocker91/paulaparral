@@ -4,6 +4,7 @@ import image from '../images/starimage.png'
 import Button from 'react-bootstrap/Button';
 import { NavLink } from 'react-router-dom'
 import Video from './Video';
+import Footer from './Footer';
 
 
 function Landing() {

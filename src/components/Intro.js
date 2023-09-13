@@ -3,6 +3,7 @@ import app from '../App.module.css'
 import styles from '../styles/Intro.module.css'
 import video from '../images/stars.mp4'
 import image from '../images/starimage.png'
+import Footer from './Footer';
 
 
 function Intro() {
