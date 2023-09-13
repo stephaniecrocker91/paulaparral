@@ -3,10 +3,25 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styles from '../styles/NavBar.module.css'
 import { NavLink } from 'react-router-dom'
+import { useEffect, useRef, useState } from 'react';
 
 function NavBar() {
+    const [expanded, setExpanded]= useState(false)
+    const ref = useRef(null)
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (ref.current && !ref.current.contains(event.target)){
+                setExpanded(false)
+            }
+        }
+        document.addEventListener('mouseup', handleClickOutside)
+        return () => {
+            document.removeEventListener('mouseup', handleClickOutside)
+        }
+    }, [ref])
+
     return (
-        <Navbar fixed="top" expand="lg"
+        <Navbar expanded={expanded} fixed="top" expand="lg"
             className={
                 `bg-body-tertiary ${
                     styles.NavBar
@@ -18,7 +33,7 @@ function NavBar() {
                         }>
                     <Navbar.Brand className={styles.Logo}>Paula Parral</Navbar.Brand>
                 </NavLink>
-                <Navbar.Toggle aria-controls="navbarScroll"/>
+                <Navbar.Toggle onClick={()=> setExpanded(!expanded)} ref= {ref} aria-controls="navbarScroll"/>
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className={
                             `me-auto my-2 my-lg-0 ${
