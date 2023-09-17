@@ -8,5 +8,11 @@
     width: 100vw;
 }
 
+Footer a {
+    color: white!important;
+    font-size: 40px;
+    margin-right: 40px;
+}
+
 
 
