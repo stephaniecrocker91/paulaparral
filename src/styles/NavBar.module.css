@@ -27,3 +27,15 @@
 .Social:hover{
     cursor: pointer;
 }
+
+/*.Dropdown {
+    height: 300px;
+    overflow-y: scroll;
+} */
+
+@media screen and (max-width: 500px) {
+    .Link {
+        font-size: 20px!important;
+        margin-bottom: 20px;
+    }
+}  

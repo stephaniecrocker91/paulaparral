@@ -34,15 +34,11 @@ function NavBar() {
                     <Navbar.Brand className={styles.Logo}>Paula Parral</Navbar.Brand>
                 </NavLink>
                 <Navbar.Toggle onClick={()=> setExpanded(!expanded)} ref= {ref} aria-controls="navbarScroll"/>
-                <Navbar.Collapse id="navbarScroll">
+                <Navbar.Collapse>
                     <Nav className={
                             `me-auto my-2 my-lg-0 ${
                                 styles.Links
                             }`
-                        }
-
-                        style={
-                            {maxHeight: '100px'}
                         }
                         navbarScroll>
                         <NavLink exact="true" to="/"
@@ -57,10 +53,10 @@ function NavBar() {
                             className={
                                 styles.Link
                         }>Acerca de la Lectora</NavLink>
-                        <NavLink exact="true" to="/blog"
+                        {/*<NavLink exact="true" to="/blog"
                             className={
                                 styles.Link
-                        }>Blog</NavLink>
+                        }>Blog</NavLink>*/}
                         <NavLink exact="true" to="/contacto"
                             className={
                                 styles.Link

@@ -23,7 +23,7 @@ function Bio() {
                     Paula Parral
                 </h3>
                 <h4>
-                    Lectora de Registros Akashicos, Reikista y Sanacion Pranica
+                    Lectora de Registros Akashicos
                 </h4>
                 <Row className={styles.Margin}>
                     <Col lg={4} md={4} sm={12} xs={12}><img src={hero}
